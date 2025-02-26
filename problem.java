@@ -53,24 +53,30 @@ public class problem {
         // }
 
        //faboniacci series
-       int num=sc.nextInt();
-       int a=0;
-       int b=1;
-       System.out.print(a+" "+b+" ");
-       for(int i=2;i<num;i++){
-        int num1=a+b;
-        System.out.print(num1+" ");
-        a=b;
-        b=num1;
-       }
+    //    int num=sc.nextInt();
+    //    int a=0;
+    //    int b=1;
+    //    System.out.print(a+" "+b+" ");
+    //    for(int i=2;i<num;i++){
+    //     int num1=a+b;
+    //     System.out.print(num1+" ");
+    //     a=b;
+    //     b=num1;
+    //    }
 
     //reverse string
-        String name=sc.next();
-        int num1=name.length();
-        for(int i=num1-1;i>=0;i--){
+        // String name=sc.next();
+        // int num1=name.length();
+        // for(int i=num1-1;i>=0;i--){
+        //     System.out.print(name.charAt(i));
+        // }
+       
+
+        String name = sc.nextLine();
+        int num5 = name.length();
+        for(int i=num5-1;i>=0;i--){
             System.out.print(name.charAt(i));
         }
-       
     }
 }
         

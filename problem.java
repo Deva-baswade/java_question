@@ -65,18 +65,16 @@ public class problem {
     //    }
 
     //reverse string
-        // String name=sc.next();
-        // int num1=name.length();
-        // for(int i=num1-1;i>=0;i--){
-        //     System.out.print(name.charAt(i));
-        // }
-       
-
         String name = sc.nextLine();
         int num5 = name.length();
         for(int i=num5-1;i>=0;i--){
             System.out.print(name.charAt(i));
         }
+
+
+
+
+    
     }
 }
         
